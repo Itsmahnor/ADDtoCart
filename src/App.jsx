@@ -24,8 +24,9 @@ function App() {
     }
   ]);
   return (
-  
+  <MainContext>
     <RouterProvider router={router} />
+    </MainContext>
     );
 
  
