@@ -7,9 +7,11 @@ function Homepage() {
 
   return (
     <>
-      <div className="m-32 flex justify-around">
+     <h1 className="text-[2rem] font-semibold text-center m-20">Items:</h1>
+      <div className=" flex justify-around flex-wrap  ml-36 mr-36">
+       
         {CartData.map((item) => (
-          <div className="card" style={{ width: "18rem" }} key={item.id}>
+          <div className="card" style={{ width: "20rem" }} key={item.id}>
             <img
               src={item.image}
               className="card-img-top w-100 h-[20vh] object-contain"
